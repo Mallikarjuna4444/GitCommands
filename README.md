@@ -76,7 +76,7 @@ Git cherry-pick is a command used to apply a specific commit from one branch to 
 3. **Cherry-pick the commit**: Execute the command `git cherry-pick <commit-hash>`. Replace `<commit-hash>` with the actual hash of the commit you identified in step 1.
 
 For example:
-```bash
+```
 git cherry-pick abc12345
 ```
 
