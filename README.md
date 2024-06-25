@@ -266,7 +266,7 @@ Here’s a step-by-step guide on how to use Git stash effectively:
 
 Git stash is a versatile tool that helps manage temporary changes in your working directory effectively, providing flexibility and allowing you to switch tasks or branches without losing your work-in-progress.
 
-### Git Stash
+### Git Reset
 
 In Git, `git reset` is a powerful command used to undo changes made to a repository's commit history, staging area, and working directory. It's versatile but needs to be used with caution as it can rewrite history and potentially lead to data loss if not used correctly.
 
