@@ -38,16 +38,12 @@
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stashes the changes in the working directory, allowing you to switch to a different branch or commit without committing the changes. |
 | `git stash clear` | Remove all stashed entries |
-| `git stash clear` | Remove all stashed entries |
-| `git stash clear` | Remove all stashed entries |
-git stash list	Lists all stashes in the repository.
-git stash pop	Applies and removes the most recent stash from the stash list.
-git stash drop	Removes the most recent stash from the stash list.
-git tag	Lists all tags in the repository.
-git tag <tag-name>	Creates a lightweight tag at the current commit.
-git tag <tag-name> <commit>	Creates a lightweight tag at the specified commit.
-git tag -a <tag-name> -m “<message>”	Creates an annotated tag at the current commit with a custom message.
-
+| 'git stash pop' | Applies and removes the most recent stash from the stash list.|
+| 'git stash drop	' | Removes the most recent stash from the stash list. |
+| 'git tag' | Lists all tags in the repository. |
+| 'git tag <tag-name>' | Creates a lightweight tag at the current commit. |
+| 'git tag <tag-name> <commit>' | Creates a lightweight tag at the specified commit. |
+| 'git tag -a <tag-name> -m “<message>”' | Creates an annotated tag at the current commit with a custom message.|
 
 ### Sharing & Updating Projects
 
