@@ -36,8 +36,18 @@
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git stash` | Stash changes in a dirty working directory |
+| `git stash` | Stashes the changes in the working directory, allowing you to switch to a different branch or commit without committing the changes. |
 | `git stash clear` | Remove all stashed entries |
+| `git stash clear` | Remove all stashed entries |
+| `git stash clear` | Remove all stashed entries |
+git stash list	Lists all stashes in the repository.
+git stash pop	Applies and removes the most recent stash from the stash list.
+git stash drop	Removes the most recent stash from the stash list.
+git tag	Lists all tags in the repository.
+git tag <tag-name>	Creates a lightweight tag at the current commit.
+git tag <tag-name> <commit>	Creates a lightweight tag at the specified commit.
+git tag -a <tag-name> -m “<message>”	Creates an annotated tag at the current commit with a custom message.
+
 
 ### Sharing & Updating Projects
 
@@ -56,10 +66,14 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `git log` | View changes |
+| `git log` | Displays the commit history of the current branch. |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
+| `git log <branch-d>` | Displays the commit history of the specified branch. |
+| `git log –all` | Displays the commit history of all branches. |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
 
 ### Git Cheat Sheet
 
