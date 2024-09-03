@@ -395,6 +395,11 @@ In summary, `git reset` is a powerful command that helps manage changes in Git b
 
 
 
-
+### Commands to do HandOn to understand better:
+1. Git Rebase
+2. Git Stash
+3. Git squash
+4. Git reset
+5. Git cherry-pick
 
 
