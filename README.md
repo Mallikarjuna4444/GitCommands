@@ -75,6 +75,35 @@
 
 https://www.geeksforgeeks.org/git-cheat-sheet/
 
+In Git, **staging** means preparing your changes before committing them.
+
+### 🔧 Here's how it works:
+
+When you modify files in your project:
+
+1. Git sees the changes — but **does nothing** automatically.
+2. You run `git add` to **stage** those changes — you're saying, "These are the changes I want to include in my next commit."
+3. Then you run `git commit` to **save** the staged changes into the repository's history.
+
+---
+
+### 🧱 Think of it like a photo shoot:
+
+* **Working directory** = all your messy, unorganized photos.
+* **Staging area** = the set of photos you’ve selected to put into an album.
+* **Commit** = putting those selected photos into the album permanently.
+
+---
+
+### Example:
+
+```bash
+git add index.html     # stage this file
+git commit -m "Update homepage"  # commit what was staged
+```
+
+Nothing gets committed until it's staged.
+
 ### Git Cherry-pick
 
 Git cherry-pick is a command used to apply a specific commit from one branch to another. It's particularly useful when you want to pick only certain commits instead of merging entire branches. Here’s how you typically use it:
