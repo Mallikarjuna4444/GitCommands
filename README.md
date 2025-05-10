@@ -50,7 +50,7 @@
 | Command | Description |
 | ------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository |
-| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
+| `git push -u origin main` | This pushes your local main branch to the remote main branch on origin, and sets up the tracking relationship. |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
