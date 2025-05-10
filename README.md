@@ -104,6 +104,32 @@ git commit -m "Update homepage"  # commit what was staged
 
 Nothing gets committed until it's staged.
 
+Great question! In Git, **staged changes are stored in a special area called the "index"**, also known as the **staging area**.
+
+---
+
+### 🔍 Where exactly?
+
+* Git stores the staging area in a file called:
+
+  ```
+  .git/index
+  ```
+* This file is inside the hidden `.git` folder at the root of your repository.
+* It's a binary file (not human-readable) that keeps track of **what will go into the next commit**.
+
+---
+
+### 💡 Summary:
+
+| Concept         | Stored In         | Purpose                              |
+| --------------- | ----------------- | ------------------------------------ |
+| Working changes | Working directory | Where you edit files                 |
+| Staged changes  | `.git/index`      | Prepares selected changes for commit |
+| Committed code  | `.git/objects`    | Permanently saved history            |
+
+---
+
 ### Git Cherry-pick
 
 Git cherry-pick is a command used to apply a specific commit from one branch to another. It's particularly useful when you want to pick only certain commits instead of merging entire branches. Here’s how you typically use it:
